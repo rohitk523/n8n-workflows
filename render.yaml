@@ -3,7 +3,7 @@ services:
     name: n8n
     env: docker
     plan: free
-    region: ohio  # or your preferred region
+    region: Oregon  # or your preferred region
     envVars:
       - key: DB_TYPE
         value: postgresdb
